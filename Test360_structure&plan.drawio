@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Page-1" id="fwe_PW3j7eOUexRt8wBK">
+    <mxGraphModel dx="2127" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-31" target="p-daeoeIgjxFsrgDgRGL-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-31" target="p-daeoeIgjxFsrgDgRGL-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-31" value="Instrument Manager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="2150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-32" value="&lt;ul&gt;&lt;li&gt;initialize all instruments&lt;/li&gt;&lt;li&gt;close all instruments&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="2200" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-36" target="p-daeoeIgjxFsrgDgRGL-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-35" target="p-daeoeIgjxFsrgDgRGL-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-35" value="DUT manager" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="2150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-36" value="&lt;ul&gt;&lt;li&gt;Init DUT coms - &amp;gt; API&lt;/li&gt;&lt;li&gt;close DUT coms&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="2250" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-38" target="p-daeoeIgjxFsrgDgRGL-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-38" value="DUT COMs APIs&lt;div&gt;(DCM0&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="2295" y="2240" width="300" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-39" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;PINMAP CONFIG&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1426.8899999999999" y="1660" width="416.22" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-41" target="p-daeoeIgjxFsrgDgRGL-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-41" value="&lt;ul&gt;&lt;li&gt;VDD - channel 1 - K2500 (SMU)&lt;/li&gt;&lt;li&gt;VCC - Chl 2 - K2500 (SMU)&lt;/li&gt;&lt;li&gt;VIN - Chl 1 - PXI4110 (SMU)&lt;/li&gt;&lt;li&gt;VOUT - chl - K2000 (DMM)&lt;/li&gt;&lt;li&gt;ETC&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1710" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-43" target="p-daeoeIgjxFsrgDgRGL-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-43" value="&lt;ul&gt;&lt;li&gt;CLK - chl1&lt;/li&gt;&lt;li&gt;CS - chl2&lt;/li&gt;&lt;li&gt;MOSI - chl3&lt;/li&gt;&lt;li&gt;MISO - chl4&lt;/li&gt;&lt;/ul&gt;All these can be connected through any USB TI" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1920" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-44" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TEST SCRIPT&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;u&gt;Forcing conditions or Input args&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;Instrument operations&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;whatpin?&amp;gt; , &amp;lt;whatfunction?&amp;gt;, &amp;lt;whatparameters?&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vdd.setVoltage()&lt;/div&gt;&lt;div&gt;vdd.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;&lt;u&gt;Reg operations if any&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DUT.readRegister()&lt;/div&gt;&lt;div&gt;DUT.writeRegister()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;&lt;u&gt;Calculations if any&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;&lt;u&gt;Log&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;- csv&lt;/div&gt;&lt;div&gt;----&lt;/div&gt;&lt;div&gt;&lt;u&gt;Export output parameters&lt;/u&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2046" y="1656" width="480" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-45" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Sequencer&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1. Generate test configs (sequence steps and input combinations)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;2. Execute the sequence (applying the values and running the scripts)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2370" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-46" value="Test Methodology&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Test Procedure (JSON)&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Meta: DUT Information or diagram (Datasheet)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Test Name&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Parameters (Input conditions and Output parameters)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Stey by step procedure&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- sweep 0.1 to 5v through Vin or input pins&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- measure output pins (Vout)&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- calculate SD for the values measured and log&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="1390" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-48" target="p-daeoeIgjxFsrgDgRGL-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-48" value="Test Procedure Document" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-49" value="AI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2265" y="1290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.488;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-46" target="p-daeoeIgjxFsrgDgRGL-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2280" y="1390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2410" y="1330" />
+              <mxPoint x="2281" y="1330" />
+              <mxPoint x="2281" y="1380" />
+              <mxPoint x="2280" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-52" value="Standard online material" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-53" value="1. Iterates over multiple input conditions which may use same execution plan (Sweeping)&lt;div&gt;2. Iterate over different environmental conditions and pack multiple tests under the same hood&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="2540" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-54" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Loop0 - Environment Conditions (temp)&lt;div&gt;Loop1 - Input Conditions sweeping&lt;div&gt;- Test Execution (Test1)&lt;/div&gt;&lt;div&gt;Loop2 - Input conditions sweeping&lt;/div&gt;&lt;div&gt;- Test Execution (Test2)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="2540" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.301;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p-daeoeIgjxFsrgDgRGL-41" target="p-daeoeIgjxFsrgDgRGL-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-daeoeIgjxFsrgDgRGL-56" value="AI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2285" y="1598" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
